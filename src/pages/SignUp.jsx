@@ -64,7 +64,7 @@ function SignUp() {
     <>
       <div className='pageContainer'>
         <header>
-          <p className='pageHeader'>CREATE A NEW ACCOUNT</p>
+          <p className='pageHeader'>Welcome Back!</p>
         </header>
 
         <form onSubmit={onSubmit}>
@@ -103,9 +103,9 @@ function SignUp() {
             />
           </div>
 
-          {/* <Link to='/forgot-password' className='forgotPasswordLink'>
+          <Link to='/forgot-password' className='forgotPasswordLink'>
             Forgot Password
-          </Link> */}
+          </Link>
 
           <div className='signUpBar'>
             <p className='signUpText'>Sign Up</p>
