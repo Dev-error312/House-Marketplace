@@ -107,6 +107,10 @@ function SignUp() {
             Forgot Password
           </Link> */}
 
+          <Link to='/sign-in' className='registerLink'>
+            Already have an account? Sign In Instead
+          </Link>
+
           <div className='signUpBar'>
             <p className='signUpText'>Sign Up</p>
             <button className='signUpButton'>
@@ -117,9 +121,7 @@ function SignUp() {
 
         <OAuth />
 
-        <Link to='/sign-in' className='registerLink'>
-          Sign In Instead
-        </Link>
+        
       </div>
     </>
   )
