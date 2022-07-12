@@ -82,9 +82,7 @@ function SignIn() {
             Forgot Password ?
           </Link>
 
-          <Link to='/sign-up' className='registerLink'>
-            Don't have an account? Sign Up Instead
-          </Link>
+          
 
           <div className='signInBar'>
             <p className='signInText'>Sign In</p>
@@ -92,6 +90,11 @@ function SignIn() {
               <ArrowRightIcon fill='#ffffff' width='34px' height='34px' />
             </button>
           </div>
+
+          <Link to='/sign-up' className='registerLink'>
+            Don't have an account? Sign Up Instead
+          </Link>
+          
         </form>
 
         <OAuth />
